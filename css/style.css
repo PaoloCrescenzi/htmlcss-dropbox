@@ -5,16 +5,16 @@
 }
 
 .container-S{
-    margin: auto;
+    margin: 0 auto;
     width: 920px;
 }
 
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .container-L{
-    margin: auto;
+    margin: 0 auto;
     width: 1100px;
 }
 
@@ -51,9 +51,8 @@ nav{
     background-color: rgb(180, 208, 231);
 }
 
-.img{
+img{
     width: 100%;
-    flex-grow: 1;
 }
 
 .info-header-container{
@@ -88,12 +87,54 @@ li{
 
 .column-container{
     display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .col{
-    padding: .5rem;
+    flex-basis: 30%;
+    flex-grow: 1;
 }
 
 .team{
+    display: flex;
+}
+
+.btn-white{
+    padding: .5rem;
+    background-color: transparent;
+}
+
+.partner{
+    display: flex;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card{
+    flex-basis: 30%;
+    flex-grow: 1;
+    padding: 2rem 0;
+}
+
+section{
+    padding: 3rem 0;
+}
+
+.btn{
+    background-color: white;
+    border: none;
+    padding: .4rem 1.5rem;
+}
+
+.red{
+    color:  rgb(97, 8, 43)
+}
+
+div>.red+.btn{
     display: flex;
 }
