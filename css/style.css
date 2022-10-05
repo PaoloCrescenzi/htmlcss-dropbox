@@ -10,7 +10,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif
+    font-family:'Roboto', sans-serif;
 }
 
 .container-L{
@@ -109,10 +109,7 @@ li{
     display: flex;
 }
 
-.enterprise-container{
-    border: 1px solid lightgray;
-    margin: 2rem 0;
-}
+
 
 .btn-white{
     padding: .5rem;
@@ -175,7 +172,13 @@ div>.red+.btn{
 }
 
 .month{
-    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    
+}
+
+.months{
+    margin-bottom: 4rem;
+    border: 1px solid lightgray;
 }
 
 li{
@@ -190,6 +193,101 @@ li{
     padding: 2rem 0;
 }
 
-.team{
-
+.business-container h2{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
+
+.radio-cpntainer{
+    padding-bottom: 2rem;
+}
+
+.enterprise-container{
+    border: 1px solid lightgray;
+    margin: 2rem 0;
+}
+
+.team-enter{
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-enter{
+    width: 100%
+}
+
+.left-enter h3{
+    padding-bottom: 1rem;
+}
+
+.right-enter{
+    width: 40%;
+}
+
+.question h2{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.row{
+    padding: 1.5rem 0;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.row-mid{
+    padding: 1.5rem 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.row-b{
+    padding: 1.5rem 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.list-question i{
+    align-self: flex-end;
+}
+
+.list-question div{
+    display: flex;
+}
+
+footer{
+    background-color: black;
+}
+
+h4{
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+.coll li{
+    color: white;
+    padding: 0.3rem
+}
+
+.coll-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.coll{
+    padding: 5rem 0;
+}
+
+.par div{
+    padding: 2rem 0;
+}
+
+.border{
+    border-bottom: 1px solid lightgray;
+}
+
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+
