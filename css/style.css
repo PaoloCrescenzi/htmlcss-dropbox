@@ -49,14 +49,26 @@ nav{
 
 .bk-blue{
     background-color: rgb(180, 208, 231);
+    position: relative;
 }
 
-img{
+.bk-blue .container-L{
+    position: relative;
+    bottom: -3rem;
+}
+
+section img{
     width: 100%;
+    display: block;
 }
 
 .info-header-container{
     display: flex;
+
+}
+
+.img-container img{
+    width: 100%;
 }
 
 .text{
@@ -64,16 +76,9 @@ img{
 }
 
 .column-testa{
-    border: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
     display: flex;
     justify-content: center;
-}
-
-.column-body{
-    border-bottom: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
-    
 }
 
 li{
@@ -88,16 +93,25 @@ li{
 .column-container{
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
+    justify-content: space-between;
+}
+
+.column-body{
+    padding: 2rem 1.5rem;
 }
 
 .col{
     flex-basis: 30%;
-    flex-grow: 1;
+    border: 1px solid lightgray;
 }
 
 .team{
     display: flex;
+}
+
+.enterprise-container{
+    border: 1px solid lightgray;
+    margin: 2rem 0;
 }
 
 .btn-white{
@@ -107,6 +121,19 @@ li{
 
 .partner{
     display: flex;
+}
+
+.col-p{
+    min-height: 300px;
+}
+
+.par{
+    width: 40%;
+    padding: 3rem 2.5rem;
+}
+
+.img-container{
+    width: 60%;
 }
 
 .card-container{
@@ -137,4 +164,32 @@ section{
 
 div>.red+.btn{
     display: flex;
+}
+
+.col h3{
+    padding-bottom: 1rem;
+}
+
+.€{
+    padding-bottom: .5rem;
+}
+
+.month{
+    padding-bottom: 3rem;
+}
+
+li{
+    padding-bottom: 1rem;
+}
+
+.column-body .btn-blue{
+    margin: 1.5rem 0;
+}
+
+.link{
+    padding: 2rem 0;
+}
+
+.team{
+
 }
