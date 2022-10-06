@@ -343,3 +343,7 @@ select{
     border: none;
     margin-bottom: 3rem;
 }
+
+.box-gray{
+    padding: 3rem
+}
